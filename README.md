@@ -2,7 +2,7 @@
 Collection of various algorithms and problem solving
 #
 Standart template
-```
+```c++
 #include <bits/stdc++.h>
 
 using namespace std;
