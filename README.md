@@ -1,7 +1,7 @@
 # Algorithms
 Collection of various algorithms and problem solving
-#
-Standart template
+
+### Standart template
 ```c++
 #include <bits/stdc++.h>
 
@@ -23,4 +23,14 @@ int main() {
 
     return 0;
 }
+```
+### Compilation flags
+```
+g++ a.cpp -o a -std=c++17 -Wshadow -Wall -g -fsanitize=address -fsanitize=undefined -D_GLIBCXX_DEBUG
+```
+
+### Freopen
+```c++
+freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
 ```
