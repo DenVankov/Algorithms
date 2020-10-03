@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/RuCodeIntensive28_09.dir/A5.cpp.o  -o RuCodeIntensive28_09 
