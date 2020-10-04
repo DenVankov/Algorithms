@@ -7,6 +7,11 @@ Collection of various algorithms and problem solving
 
 using namespace std;
 
+#define F first
+#define S second
+#define P pair
+
+typedef long double ld;
 typedef long long ll;
 const ll MAXX = 1e9;
 
