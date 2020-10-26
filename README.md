@@ -39,3 +39,20 @@ g++ a.cpp -o a -std=c++17 -Wshadow -Wall -g -fsanitize=address -fsanitize=undefi
 freopen("input.txt", "r", stdin);
 freopen("output.txt", "w", stdout);
 ```
+
+### Policy based data structures
+```c++
+#include <ext/pb_ds/assoc_container.hpp>
+using ll = long long;
+using namespace __gnu_pbds;
+//less = set
+typedef tree<ll,null_type,less<ll>, rb_tree_tag,
+        tree_order_statistics_node_update> indexed_set;
+//less_equal = multiset
+typedef tree<ll,null_type,less_equal<ll>, rb_tree_tag,
+        tree_order_statistics_node_update> indexed_multiset;
+
+ll idx = s.order_of_key(key);
+auto it = s.find_by_order(idx);
+cout << idx << " " << *it << "\n";
+```
